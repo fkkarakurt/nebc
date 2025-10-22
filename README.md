@@ -77,7 +77,6 @@ Nebulang's symbolic, whitespace-sensitive syntax is designed for maximum develop
 | Feature            | Syntax            | Example                | Description                                  |
 | :----------------- | :---------------- | :--------------------- | :------------------------------------------- |
 | **Output (Print)** | `! "..."`         | `! "Hello, {name}"`    | The `!` symbol is the print command.         |
-| **New Line**       | `>                | `                      | `! "Line 1 >                                 | Line 2"` | Explicitly enforces a newline during output. |
 | **Assignment**     | `var value`       | `a 5, name "Joe"`      | Space-separated assignment.                  |
 | **Conditional**    | `? (cond) ... !?` | `? (a > b) ... !? ...` | Symbolic `If` and `Else` (`!?`).             |
 | **Loop**           | `@ i, start..end` | `@ i, 1..10`           | Symbolic loop construct for range iteration. |
