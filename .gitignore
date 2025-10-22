@@ -1,6 +1,6 @@
 target
 vm
 tests
-build
+build/*
 *.lock
 docs
