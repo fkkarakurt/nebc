@@ -1,0 +1,14 @@
+! "Basic Test >|"
+
+x 10
+y 20
+
+! "x = {x}, y = {y} >|"
+! "Sum = {x + y} >|"
+
+? (x > y)
+    ! "x great >|"
+!?
+    ! "y great >|"
+
+! "Test ok!>|"

@@ -1,0 +1,79 @@
+! "🏗️ NEBULANG DATA STRUCTURES DEMO >|"
+! "==================================>|"
+
+! "Array-like Structure >|"
+! "------------------->|"
+element1 10
+element2 20
+element3 30
+element4 40
+element5 50
+
+total 0
+total += element1
+total += element2  
+total += element3
+total += element4
+total += element5
+! "Array Total: {total} >|"
+
+! "Search Algorithm >|"
+! "------------------->|"
+target 30
+found FALSE
+current_element element1
+? (current_element == target)
+    found TRUE
+current_element element2
+? (current_element == target)
+    found TRUE
+current_element element3
+? (current_element == target)
+    found TRUE
+current_element element4
+? (current_element == target)
+    found TRUE
+current_element element5
+? (current_element == target)
+    found TRUE
+
+? (found)
+    ! "{target} value found! >|"
+!?
+    ! "{target} value not found! >|"
+
+! "Sorting Algorithm (Bubble Sort-like) >|"
+! "------------------------------------------->|"
+number1 45
+number2 23
+number3 78
+number4 12
+number5 56
+
+! "Before sorting: {number1} {number2} {number3} {number4} {number5} >|"
+
+! "1st Pass >|"
+? (number1 > number2)
+    temp number1
+    number1 number2
+    number2 temp
+
+? (number2 > number3)
+    temp number2
+    number2 number3
+    number3 temp
+
+? (number3 > number4)
+    temp number3
+    number3 number4
+    number4 temp
+
+? (number4 > number5)
+    temp number4
+    number4 number5
+    number5 temp
+
+! "After 1st Pass: {number1} {number2} {number3} {number4} {number5} >|"
+
+! "==================================>|"
+! "📊 DATA STRUCTURES DEMO COMPLETE >|"

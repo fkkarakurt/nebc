@@ -1,0 +1,69 @@
+! "🎮 NEBULANG GAME & SIMULATION DEMO >|"
+! "===================================>|"
+
+! "Dice Roll Simulation >|"
+! "--------------------->|"
+dice1 0
+dice2 0
+total_score 0
+
+! "Rolling dice 5 times... >|"
+@ roll, 1..5
+    dice1 roll * 2
+    dice2 roll * 3
+    ? (dice1 > 6)
+        dice1 dice1 - 6
+    ? (dice2 > 6)
+        dice2 dice2 - 6
+    
+    roll_total (dice1 + dice2)
+    total_score += roll_total
+    
+    ! "Roll {roll}: Dice1={dice1}, Dice2={dice2}, Total={roll_total} >|"
+
+! "Game Result: >|"
+! "Total Score: {total_score} >|"
+? (total_score > 15)
+    ! "🏆 You won! >|"
+? (total_score > 10)
+    ! "👍 Good game! >|"
+!?
+    ! "💪 You can do better! >|"
+
+! "Number Guessing Game >|"
+! "------------------>|"
+secret_number 42
+guess 0
+attempt_count 0
+
+! "Guess a number between 1-100 >|"
+
+guess 50
+attempt_count += 1
+? (guess == secret_number)
+    ! "🎉 Correct guess! Found in {attempt_count} attempts >|"
+? (guess > secret_number)
+    ! "⬇️ Try a smaller number >|"
+!?
+    ! "⬆️ Try a larger number >|"
+
+guess 25
+attempt_count += 1
+? (guess == secret_number)
+    ! "🎉 Correct guess! Found in {attempt_count} attempts >|"
+? (guess > secret_number)
+    ! "⬇️ Try a smaller number >|"
+!?
+    ! "⬆️ Try a larger number >|"
+
+guess 42
+attempt_count += 1
+? (guess == secret_number)
+    ! "🎉 Correct guess! Found in {attempt_count} attempts >|"
+? (guess > secret_number)
+    ! "⬇️ Try a smaller number >|"
+!?
+    ! "⬆️ Try a larger number >|"
+
+! "===================================>|"
+! "🎯 GAME DEMO COMPLETE >|"

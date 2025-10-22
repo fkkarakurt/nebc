@@ -1,0 +1,14 @@
+? (5 == 5)
+    TRUE
+!? 
+    FALSE
+
+! "----------------- >|"
+
+d -5
+a 2
+total (d + a)
+
+    ! "Total: {total} >|"
+    ! "Difference version 01: {d - a} >|"
+    ! "Difference version 02: {{d} - {a}} >|"

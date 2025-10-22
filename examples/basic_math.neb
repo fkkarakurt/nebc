@@ -1,0 +1,26 @@
+! "🧮 NEBULANG MATH & SCIENCE DEMO >|"
+! "=================================>|"
+
+! "Fibonacci Series >|"
+a 0
+b 1
+! "Fibonacci: {a} {b} >|"
+@ i, 1..10
+    c a + b
+    ! "{c} >|"
+    a b
+    b c
+
+
+! "Geometric Calculations >|"
+radius 5
+pi 3.14159
+circumference (2 * pi * radius)
+area (pi * radius * radius)
+! "Circle: >|"
+! "Radius: {radius} >|"
+! "Circumference: {circumference} >|"
+! "Area: {area} >|"
+
+! "=================================>|"
+! "🔬 SCIENTIFIC CALCULATIONS COMPLETE >|"

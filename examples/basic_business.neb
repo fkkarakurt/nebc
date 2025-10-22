@@ -1,0 +1,62 @@
+! "💼 NEBULANG BUSINESS & FINANCE DEMO >|"
+! "====================================>|"
+
+! "Budget Management >|"
+! "--------------->|"
+income 5000
+rent 1200
+bills 300
+food 400
+transportation 200
+entertainment 300
+
+total_expense (rent + bills + food + transportation + entertainment)
+net_income (income - total_expense)
+savings_rate (net_income / income * 100)
+
+? (net_income > 1000)
+    ! "✅ Healthy budget >|"
+? (net_income > 0)
+    ! "⚠️ Budget balanced >|"
+!?
+    ! "❌ Budget deficit! >|"
+
+! "Return on Investment Calculation >|"
+! "--------------------------->|"
+principal 10000
+interest_rate 8
+year 5
+
+return_amount (principal * interest_rate / 100 * year)
+total_amount (principal + return_amount)
+
+! "📈 INVESTMENT ANALYSIS >|"
+! "------------------->|"
+! "Principal: {principal} >|"
+! "Interest Rate: %{interest_rate} >|"
+! "Duration: {year} years >|"
+! "Total Return: {return_amount} >|"
+! "Total Amount: {total_amount} >|"
+
+! "Stock Management >|"
+! "-------------->|"
+product_price 50
+quantity 100
+profit_margin 30
+
+total_cost (product_price * quantity)
+selling_price (product_price * (100 + profit_margin) / 100)
+potential_revenue (selling_price * quantity)
+potential_profit (potential_revenue - total_cost)
+
+! "📦 STOCK ANALYSIS >|"
+! "----------------->|"
+! "Product Price: {product_price} >|"
+! "Stock Quantity: {quantity} >|"
+! "Total Cost: {total_cost} >|"
+! "Selling Price: {selling_price} >|"
+! "Potential Revenue: {potential_revenue} >|"
+! "Potential Profit: {potential_profit} >|"
+
+! "====================================>|"
+! "💸 FINANCE DEMO COMPLETE >|"

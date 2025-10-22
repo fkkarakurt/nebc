@@ -1,0 +1,9 @@
+! "🚀 NEBULANG LONG-RUN PERFORMANCE TEST >|"
+! "=======================================>|"
+
+boo 5000000
+foo 500
+
+@ i, 1..boo
+    @ j, 1..foo
+        
